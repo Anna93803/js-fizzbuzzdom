@@ -4,6 +4,15 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: cursive;
+    font-weight: bold;
+}
+
+.bg-main {
+    background: #083b4c;
+}
+
 .container {
     max-width: 960px;
     margin: 0 auto;
@@ -12,19 +21,36 @@
 .square {
     height: 80px;
     width: 80px;
-    line-height: 80px;
+    line-height: 5rem;
     text-align: center;
-    background: red;
 }
 
 #square {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 10px;
+    gap: .625rem;
 }
 
 h2 {
     text-align: center;
-    font-size: 50px;
+    font-size: 3.125rem;
+    color: white;
+    padding: 1.25rem 0;
+}
+
+.blue {
+    background-color: #1389b2;
+}
+
+.pink {
+    background-color: #f0466f;
+}
+
+.green {
+    background-color: green;
+}
+
+.yellow {
+    background-color: yellow;
 }
